@@ -14,6 +14,8 @@ public class Comparison {
         number1 = input.nextInt();
 
 
+
+
         System.out.print("Enter second Integer: ");
         number2 = input.nextInt();
 

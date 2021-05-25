@@ -7,5 +7,9 @@ public class Welcome1 {
         // write your code here
 
         System.out.println("Welcome to java programming!");
+//        int i = 454;
+//        int mod = i / 10;
+//        System.out.println(mod);
+
     }// end method main
 } // end class Welcome1

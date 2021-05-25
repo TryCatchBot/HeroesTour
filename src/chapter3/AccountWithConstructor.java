@@ -1,11 +1,15 @@
-package chapter3;// Fig. 3.1: chapter3.Account.java
-// chapter3.Account class that contains a name instance variable
-// and methods to set and get its value.
+package chapter3;
+// Fig. 3.5: Account.java
+// Account class with a constructor that initializes the name.
 
-
-public class Account {
+public class AccountWithConstructor {
 
     private String name; // instance variable
+
+    // constructor initializes name with parameter name
+    public AccountWithConstructor (String name) { // constructor name is class name
+        this.name = name;
+    }
 
     // method to set the name in the object
     public void setName(String name){
@@ -17,4 +21,4 @@ public class Account {
         return name; // return value of name to caller
     }
 
-} // end class Account
+}
