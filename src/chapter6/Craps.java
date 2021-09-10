@@ -21,7 +21,7 @@ public class Craps {
     // plays one game of craps
     public static void main(String[] args) {
 
-        int myPoint = 0; // point if no win or loss on first roll
+        int myPoint1 = 0; // point if no win or loss on first roll
         Status gameStatus; // can contain CONTINUE, WON or LOST
 
         int sumOfDice = rollDice(); // first roll of the dice
@@ -40,8 +40,8 @@ public class Craps {
                 break;
             default: // did not win or lose, so remember point
                 gameStatus = Status.CONTINUE; // game is not over
-                myPoint = sumOfDice; // remember the point
-                System.out.printf("Point is %d%n", myPoint);
+                myPoint1 = sumOfDice; // remember the point
+                System.out.printf("Point is %d%n", myPoint1);
                 break;
         } // end switch statement
 
@@ -51,7 +51,7 @@ public class Craps {
             sumOfDice = rollDice(); // roll dice again
 
             // determine game status
-            if (sumOfDice == myPoint) // win by making point
+            if (sumOfDice == myPoint1) // win by making point
                 gameStatus =Status.WON;
             else
                 if (sumOfDice == SEVEN) // lose by rolling 7 before point
