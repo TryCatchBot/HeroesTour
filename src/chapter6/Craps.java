@@ -62,7 +62,7 @@ public class Craps {
         if (gameStatus == Status.WON)
             System.out.println("Player Wins");
         else
-            System.out.println("Player Loses");
+            System.out.println("Player Loses.");
     } // end main method
 
 
