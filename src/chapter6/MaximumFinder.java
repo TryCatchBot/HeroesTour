@@ -18,10 +18,10 @@ public class MaximumFinder {
         double number3 = input.nextDouble(); // read third double
 
         // determine the maximum value
-        double result = maximum(number0, number2, number3);
+        double results = maximum(number0, number2, number3);
 
         // display maximum value
-        System.out.println("Maximum is: " + result);
+        System.out.println("Maximum is: " + results);
 
     } // end main method
 
