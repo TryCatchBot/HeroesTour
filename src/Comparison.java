@@ -10,7 +10,7 @@ public class Comparison {
         int number1;
         int number2;
 
-        System.out.print("Enter first Integer: ");
+        System.out.print("Enter first number(Integer): ");
         number1 = input.nextInt();
 
 
