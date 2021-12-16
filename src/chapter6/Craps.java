@@ -9,7 +9,10 @@ public class Craps {
     private static final SecureRandom randomNumbers = new SecureRandom();
 
     // enum type with constants that represent the game status
-    private enum Status { CONTINUE, WON, LOST }
+    private enum Status {
+        CONTINUE, WON, LOST
+    }
+
 
     // constants that represent common rolls of the dice
     private static final int SNAKE_EYES = 2;
@@ -23,6 +26,8 @@ public class Craps {
 
         int myPoint = 0; // point if no win or loss on first roll
         Status gameStatus; // can contain CONTINUE, WON or LOST
+
+
 
         int sumOfDice = rollDice(); // first roll of the dice
 
